@@ -72,18 +72,18 @@
 	}
 
 	nav {
-		display: grid;
-		place-items: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 		font-size: 5rem;
-		margin-top: 300px;
-		margin-left: 100px;
+		margin: 0 auto;
 		gap: 20px;
+		height: 100vh;
 	}
 
 	@media (max-width: 768px) {
 		nav {
-			margin-top: 375px;
-			margin-right: 75px;
 			font-size: 2rem;
 		}
 		svg {
