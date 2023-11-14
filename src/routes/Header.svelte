@@ -11,6 +11,8 @@
 		justify-content: center;
 		align-content: center;
 		gap: 20px;
+		padding: 20px;
+		border-bottom: 1px solid black;
 	}
 
 	a {
