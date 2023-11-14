@@ -23,7 +23,7 @@
 	h1,
 	p {
 		color: #ccd0e8;
-		font-family: arial;
+		font-family: verdana;
 	}
 
 	.p-text {
