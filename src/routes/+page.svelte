@@ -80,6 +80,17 @@
 		gap: 20px;
 	}
 
+	@media (max-width: 768px) {
+		nav {
+			margin-top: 375px;
+			margin-right: 75px;
+			font-size: 2rem;
+		}
+		svg {
+			max-width: 160%;
+			max-height: 160%;
+		}
+	}
 	a {
 		text-decoration: none;
 		color: #ff5733;
