@@ -12,7 +12,7 @@
 		align-content: center;
 		gap: 20px;
 		padding: 20px;
-		border-bottom: 1px solid black;
+		border-bottom: 1px solid #ccd0e8;
 	}
 
 	a {
