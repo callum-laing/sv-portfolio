@@ -89,7 +89,7 @@
 <div class="projects-grid">
 	<div class="proj-one">
 		<div class="proj-text">
-			<h2><span>T</span>odo <span>L</span>ist</h2>
+			<h2>Todo List</h2>
 			<p>
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
 				been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -111,7 +111,7 @@
 
 	<div class="proj-two">
 		<div class="proj-text">
-			<h2><span>C</span>alculator</h2>
+			<h2>Calculator</h2>
 			<p>
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
 				been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -133,7 +133,7 @@
 
 	<div class="proj-two">
 		<div class="proj-text">
-			<h2><span>E</span>tch-<span>A</span>-<span>S</span>ketch</h2>
+			<h2>Etch-A-Sketch</h2>
 			<p>
 				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
 				been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
@@ -226,6 +226,11 @@
 	i {
 		color: #ccd0e8;
 	}
+
+	h2::first-letter {
+		color: #ff5733;
+	}
+
 	p,
 	a {
 		font-family: verdana;
