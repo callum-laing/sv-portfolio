@@ -96,7 +96,7 @@
 				galley of type and scrambled it to make a type specimen book.
 			</p>
 		</div>
-		<img src="fleur.JPG" alt="" />
+		<img src="todo.JPG" alt="" />
 	</div>
 </div>
 
@@ -141,11 +141,14 @@
 	}
 
 	.proj-one > img {
-		width: 500px;
+		width: 450px;
 		height: auto;
+		border-radius: 10px;
+		box-shadow: #ff5733 0px 1px 4px;
+		opacity: 80%;
 	}
 	.proj-one > .proj-one-text {
-		width: 50%;
+		width: 30%;
 	}
 
 	.proj-one-text > h2 {
@@ -153,10 +156,16 @@
 		color: white;
 		font-size: 2rem;
 	}
-	.proj-one {
+	/* .proj-one {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		gap: 10px;
 		place-items: center;
+	} */
+
+	.proj-one {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 10px;
 	}
 </style>
