@@ -155,6 +155,7 @@
 		<div class="github">
 			<a href="https://github.com/callum-laing">
 				<svg
+					class="social-link"
 					viewBox="0 0 20 20"
 					version="1.1"
 					xmlns="http://www.w3.org/2000/svg"
@@ -186,7 +187,7 @@
 		</div>
 		<div class="linkedin">
 			<a href="http://www.linkedin.com/in/callumlaing91">
-				<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+				<svg class="social-link" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
 					><g id="SVGRepo_bgCarrier" stroke-width="0" /><g
 						id="SVGRepo_tracerCarrier"
 						stroke-linecap="round"
@@ -340,7 +341,7 @@
 		margin-top: 100px;
 		padding: 20px;
 		display: flex;
-		gap: 20px;
+		gap: 40px;
 		justify-content: center;
 	}
 </style>
