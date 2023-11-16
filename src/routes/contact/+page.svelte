@@ -124,4 +124,13 @@
 	a:hover {
 		color: #1d2242;
 	}
+
+	@media (max-width: 768px) {
+		.grid-wrap {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 50px;
+			gap: 20px;
+		}
+	}
 </style>

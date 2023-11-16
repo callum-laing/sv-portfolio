@@ -1,8 +1,8 @@
 <h1>Callum Laing</h1>
 <div class="gallery">
-	<img src="hike-two.JPG" alt="" />
+	<img class="hike-two" src="hike-two.JPG" alt="" />
 	<span>
-		<img src="fleur.JPG" alt="" />
+		<img class="fleur" src="fleur.JPG" alt="" />
 		<div class="p-text">
 			<p>
 				I'm a <span class="webdev-text">Front-End Web Developer</span> in England, UK, with a passion
@@ -16,11 +16,10 @@
 			</p>
 		</div>
 	</span>
-	<img src="hike-three.JPG" alt="" />
+	<img class="hike-three" src="hike-three.JPG" alt="" />
 </div>
 
 <style>
-	h1,
 	p {
 		color: #ccd0e8;
 		font-family: verdana;
@@ -30,10 +29,8 @@
 		margin-top: 70px;
 	}
 	h1 {
-		text-align: center;
 		font-size: 5rem;
 		margin-top: 20px;
-		font-family: 'Fjalla One', sans-serif;
 		letter-spacing: 5px;
 	}
 
@@ -55,5 +52,31 @@
 		height: auto;
 		margin: 0 auto;
 		box-shadow: #ff5733 0px 1px 4px;
+	}
+
+	@media (max-width: 768px) {
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 25px;
+		}
+		p {
+			order: 1;
+			margin: 20px;
+		}
+		.hike-two {
+			order: 3;
+			margin-bottom: 50px;
+		}
+		.hike-three {
+			order: 3;
+			margin-bottom: 50px;
+		}
+		.fleur {
+			order: 3;
+		}
+		img {
+			width: 200px;
+		}
 	}
 </style>
