@@ -254,7 +254,6 @@
 		color: #ff5733;
 	}
 
-	p,
 	a {
 		font-family: verdana;
 	}
@@ -323,10 +322,11 @@
 	}
 
 	button {
-		background-color: transparent;
+		background-color: #1d2242;
 		border-radius: 10px;
 		padding: 10px;
 		box-shadow: #ff5733 0px 1px 4px;
+		font-size: 1.1em;
 	}
 
 	button:hover {
@@ -335,6 +335,7 @@
 
 	button > a {
 		text-decoration: none;
+		font-family: 'Fjalla One', sans-serif;
 	}
 
 	@media (max-width: 768px) {
