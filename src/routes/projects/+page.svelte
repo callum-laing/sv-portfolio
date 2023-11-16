@@ -91,9 +91,9 @@
 		<div class="proj-text">
 			<h2>Todo List</h2>
 			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-				galley of type and scrambled it to make a type specimen book.
+				Discover my Todo-list project, coded with HTML, CSS, JavaScript, and Svelte. This task
+				management tool reflects my practical coding skills, emphasizing clean design and seamless
+				functionality for efficient day-to-day use.
 			</p>
 			<div class="proj-btn">
 				<button>
@@ -113,9 +113,9 @@
 		<div class="proj-text">
 			<h2>Calculator</h2>
 			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-				galley of type and scrambled it to make a type specimen book.
+				Explore my HTML, CSS, and JavaScript calculator project. Designed with simplicity in mind,
+				it showcases my ability to create practical and user-friendly tools. The focus is on clean
+				design, responsive functionality, and reliable performance for everyday calculations.
 			</p>
 			<div class="proj-btn">
 				<button>
@@ -135,9 +135,9 @@
 		<div class="proj-text">
 			<h2>Etch A Sketch</h2>
 			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-				galley of type and scrambled it to make a type specimen book.
+				Explore my basic Etch-a-Sketch project, crafted with HTML, CSS, and JavaScript. This
+				straightforward creation showcases my ability to implement simple, interactive features,
+				reflecting a practical approach to web development.
 			</p>
 			<div class="proj-btn">
 				<button>
@@ -157,9 +157,10 @@
 		<div class="proj-text">
 			<h2>Rock, Paper, Scissors</h2>
 			<p>
-				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-				been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-				galley of type and scrambled it to make a type specimen book.
+				Experience my web-based Rock, Paper, Scissors game, implemented using HTML, CSS, and
+				JavaScript. This classic yet approachable project highlights my capability to bring a touch
+				of nostalgia to interactive applications. It demonstrates my coding proficiency in
+				delivering engaging and straightforward user experiences.
 			</p>
 			<div class="proj-btn">
 				<button>
