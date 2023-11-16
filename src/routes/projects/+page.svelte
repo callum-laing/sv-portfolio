@@ -87,7 +87,7 @@
 	</div>
 </div>
 <div class="projects-grid">
-	<div class="proj-one">
+	<div class="proj-card">
 		<div class="proj-text">
 			<h2>Todo List</h2>
 			<p>
@@ -97,7 +97,7 @@
 			</p>
 			<div class="proj-btn">
 				<button>
-					<a href="#">Github Repo</a>
+					<a href="https://github.com/callum-laing/svelte-todo-app">Github Repo</a>
 				</button>
 				<button>
 					<a href="https://cdl-todo.netlify.app/">Live Demo</a>
@@ -107,9 +107,7 @@
 		<img class="proj-img" src="todo.JPG" alt="" />
 	</div>
 
-	<div class="fade-line" />
-
-	<div class="proj-two">
+	<div class="proj-card">
 		<div class="proj-text">
 			<h2>Calculator</h2>
 			<p>
@@ -119,7 +117,7 @@
 			</p>
 			<div class="proj-btn">
 				<button>
-					<a href="#">Github Repo</a>
+					<a href="https://github.com/callum-laing/calculator">Github Repo</a>
 				</button>
 				<button>
 					<a href="https://callum-laing.github.io/calculator/">Live Demo</a>
@@ -129,9 +127,7 @@
 		<img class="proj-img" src="calculator.JPG" alt="" />
 	</div>
 
-	<div class="fade-line" />
-
-	<div class="proj-two">
+	<div class="proj-card">
 		<div class="proj-text">
 			<h2>Etch A Sketch</h2>
 			<p>
@@ -141,7 +137,7 @@
 			</p>
 			<div class="proj-btn">
 				<button>
-					<a href="#">Github Repo</a>
+					<a href="https://github.com/callum-laing/etch-a-sketch">Github Repo</a>
 				</button>
 				<button>
 					<a href="https://callum-laing.github.io/etch-a-sketch/">Live Demo</a>
@@ -149,6 +145,26 @@
 			</div>
 		</div>
 		<img class="proj-img" src="etch.JPG" alt="" />
+	</div>
+
+	<div class="proj-card">
+		<div class="proj-text">
+			<h2>Rock, Paper, Scissors</h2>
+			<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+				been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+				galley of type and scrambled it to make a type specimen book.
+			</p>
+			<div class="proj-btn">
+				<button>
+					<a href="https://github.com/callum-laing/rock-paper-scissors">Github Repo</a>
+				</button>
+				<button>
+					<a href="https://callum-laing.github.io/rock-paper-scissors/">Live Demo</a>
+				</button>
+			</div>
+		</div>
+		<img class="proj-img" src="rps.JPG" alt="" />
 	</div>
 
 	<footer class="footer-icons">
@@ -253,10 +269,6 @@
 		font-size: 3rem;
 	}
 
-	span {
-		color: #ff5733;
-	}
-
 	.icon-wrapper {
 		display: flex;
 		gap: 20px;
@@ -278,16 +290,11 @@
 		fill: #ccd0e8;
 	}
 
-	.proj-one {
+	.proj-card {
 		display: flex;
 		justify-content: center;
 		gap: 50px;
-	}
-
-	.proj-two {
-		display: flex;
-		justify-content: center;
-		gap: 50px;
+		margin-bottom: 500px;
 	}
 
 	.fade-line {
@@ -295,8 +302,8 @@
 		width: 100%;
 		height: 1px;
 		background: linear-gradient(to right, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
-		margin-top: 200px;
-		margin-bottom: 200px;
+		margin-top: 250px;
+		margin-bottom: 250px;
 	}
 
 	.proj-img {
@@ -339,6 +346,10 @@
 		h2 {
 			text-align: center;
 		}
+		.proj-text {
+			margin: 20px;
+			text-align: center;
+		}
 	}
 
 	.footer-icons {
@@ -348,5 +359,11 @@
 		display: flex;
 		gap: 40px;
 		justify-content: center;
+	}
+
+	.github,
+	.linkedin {
+		width: 40px;
+		height: auto;
 	}
 </style>
