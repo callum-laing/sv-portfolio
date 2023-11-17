@@ -64,6 +64,7 @@
 	<Header />
 	<slot />
 {/if}
+export const prerender = true;
 
 <style>
 	.background {
