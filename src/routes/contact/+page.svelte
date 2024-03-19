@@ -45,7 +45,7 @@
 		</label>
 		<label for="body">
 			<p>Body:</p>
-			<textarea rows="5" name="body" />
+			<textarea rows="5" name="body" class="body" />
 		</label>
 		<button type="submit">Send</button>
 	</form>
@@ -112,6 +112,12 @@
 		color: #ccd0e8;
 		font-family: verdana;
 		font-size: 0.9em;
+	}
+
+	.body {
+		width: 400px;
+		height: 150px;
+		resize: none;
 	}
 
 	a,
