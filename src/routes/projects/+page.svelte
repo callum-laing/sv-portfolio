@@ -1,6 +1,6 @@
 <h1>Projects</h1>
 
-<div class="icon-wrapper">
+<!-- <div class="icon-wrapper">
 	<div class="html">
 		<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
 			><g id="SVGRepo_bgCarrier" stroke-width="0" /><g
@@ -20,7 +20,7 @@
 				/>
 			</g></svg
 		>
-		<i>html</i>
+		<i>HTML5</i>
 	</div>
 	<div class="css">
 		<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@
 				/>
 			</g></svg
 		>
-		<i>css</i>
+		<i>CSS3</i>
 	</div>
 	<div class="js">
 		<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@
 				/>
 			</g></svg
 		>
-		<i>javascript</i>
+		<i>JavaScript</i>
 	</div>
 	<div class="svelte">
 		<svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -83,9 +83,9 @@
 				/>
 			</g></svg
 		>
-		<i>svelte</i>
+		<i>Svelte</i>
 	</div>
-</div>
+</div> -->
 <div class="projects-grid">
 	<div class="proj-card">
 		<div class="proj-text">
@@ -248,6 +248,8 @@
 	h2,
 	i {
 		color: #ccd0e8;
+		margin-top: 5px;
+		font-style: normal;
 	}
 
 	h2::first-letter {
@@ -259,7 +261,8 @@
 	}
 
 	h1,
-	h2 {
+	h2,
+	i {
 		font-family: 'Fjalla One', sans-serif;
 	}
 
@@ -284,7 +287,8 @@
 	.html,
 	.css,
 	.js,
-	.svelte {
+	.svelte,
+	.react {
 		display: flex;
 		flex-direction: column;
 		place-items: center;
