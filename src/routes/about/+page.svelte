@@ -1,9 +1,9 @@
 <h1>Callum Laing</h1>
 
 <div class="gallery">
-	<img class="hike-two" src="hike-two.JPG" alt="" />
+	<img class="hike-two" src="hike-two.JPG" alt="" loading="lazy" />
 	<span>
-		<img class="fleur" src="fleur.JPG" alt="" />
+		<img class="fleur" src="fleur.JPG" alt="" loading="lazy" />
 		<div class="p-text">
 			<p>
 				I'm a <span class="webdev-text">Front-End Web Developer</span> in England, UK, with a passion
@@ -17,7 +17,7 @@
 			</p>
 		</div>
 	</span>
-	<img class="hike-three" src="hike-three.JPG" alt="" />
+	<img class="hike-three" src="hike-three.JPG" alt="" loading="lazy" />
 </div>
 
 <!-- <div class="container">

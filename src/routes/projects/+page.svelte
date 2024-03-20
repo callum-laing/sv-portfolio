@@ -238,7 +238,7 @@
 				</button>
 			</div>
 		</div>
-		<img class="proj-img" src="todo.JPG" alt="" />
+		<img class="proj-img" src="todo.JPG" alt="" loading="lazy" />
 	</div>
 
 	<!-- <div class="fade-line" /> -->
@@ -260,7 +260,7 @@
 				</button>
 			</div>
 		</div>
-		<img class="proj-img" src="calculator.JPG" alt="" />
+		<img class="proj-img" src="calculator.JPG" alt="" loading="lazy" />
 	</div>
 
 	<!-- <div class="fade-line" /> -->
@@ -282,7 +282,7 @@
 				</button>
 			</div>
 		</div>
-		<img class="proj-img" src="etch.JPG" alt="" />
+		<img class="proj-img" src="etch.JPG" alt="" loading="lazy" />
 	</div>
 
 	<!-- <div class="fade-line" /> -->
@@ -305,7 +305,7 @@
 				</button>
 			</div>
 		</div>
-		<img class="proj-img" src="rps.JPG" alt="" />
+		<img class="proj-img" src="rps.JPG" alt="" loading="lazy" />
 	</div>
 </div>
 <footer class="footer-icons">
