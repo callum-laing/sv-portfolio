@@ -47,7 +47,7 @@
 			<p>Body:</p>
 			<textarea rows="5" name="body" class="body" />
 		</label>
-		<button type="submit">Send</button>
+		<button type="submit">Submit</button>
 	</form>
 </div>
 
@@ -65,6 +65,9 @@
 
 	h1 {
 		font-size: 5rem;
+		margin-top: 5%;
+		text-decoration: underline #ff5733;
+		text-underline-offset: 0.15em;
 	}
 	form {
 		display: flex;
@@ -74,10 +77,9 @@
 
 	button {
 		background-color: #1d2242;
-		border-radius: 10px;
-		padding: 5px;
+		border-radius: 5px;
+		padding: 0.3em;
 		width: 70px;
-		box-shadow: #ff5733 0px 1px 4px;
 		color: #ccd0e8;
 		font-size: 1.1em;
 		font-family: 'Fjalla One', sans-serif;
